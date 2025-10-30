@@ -9,4 +9,27 @@ body {
     background-color: black;
     color: white;
 }
+/*========================*/
 
+
+/*=====SEÇÃO DA ESTILIZAÇÃO DA ANCHOR=====*/
+.navegacao {
+    text-decoration: none;
+    color: white;
+}
+
+.navegacao:hover {
+    text-decoration: underline;
+    color: rgb(173, 173, 173);
+}
+/*=======================================*/
+
+.bloco-mensagem {
+    margin-top: 10%;
+    margin-left: 10%;
+    height: 50vh;
+    max-width: 75%;
+    padding: 50px;
+    border-radius: 100px;
+    border: solid white;
+}
