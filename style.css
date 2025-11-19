@@ -1,35 +1,32 @@
+/*-----Importamento de fontes----*/
+@import url(https://db.onlinewebfonts.com/c/9a8084b55cf30c13507c01cbfd6ce3e0?family=Subway+NewYork+OT+W01+Regular);
+@import url(https://db.onlinewebfonts.com/c/5fbc824fc20dd8012386aae646012bf2?family=Glacial+Indifference);
+
+/*------Seção do Reset Básico----*/
 * {
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
 }
 
-/*=====SEÇÃO DO CORPO=====*/
-body {
-    background-color: black;
-    color: white;
-}
-/*========================*/
-
-
-/*=====SEÇÃO DA ESTILIZAÇÃO DA ANCHOR=====*/
-.navegacao {
-    text-decoration: none;
-    color: white;
+/*------Alteração da fonte do header-----*/
+header {
+    font-family: "Subway NewYork OT W01 Regular";
 }
 
-.navegacao:hover {
-    text-decoration: underline;
-    color: rgb(173, 173, 173);
+nav {
+    display: flex;
 }
-/*=======================================*/
 
-.bloco-mensagem {
-    margin-top: 10%;
-    margin-left: 10%;
-    height: 50vh;
-    max-width: 75%;
-    padding: 50px;
-    border-radius: 100px;
-    border: solid white;
+.links {
+    font-family: "Glacial Indifference";
+}
+
+/*-----Seção principal da página------*/
+#fundo-principal {
+    background-image: url(imgs/Estive\ nos\ 2\ dias\ do\ STU\ \(@skatetotalurbe\)\,\ um\ circuito\ que\ celebra\ o\ skate\,\ a\ arte\ de\ rua\,\ life.jpg);
+    justify-content: center;
+    height: 40vh;
+    background-repeat: no-repeat;
+    background-position: top;
 }
